@@ -1,0 +1,21 @@
+{
+    "name": "abdeljalil/project",
+    "authors": [
+        {
+            "name": "ABDELJALIL",
+            "email": "abdeljalil.aitetaleb@gmail.com"
+        }
+    ],
+    "require": {
+        "duncan3dc/blade":"4.1.0",
+        "twig/twig": "~2.0",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload":{
+        "psr-4":{
+            "Core\\":"Core/",
+            "App\\":"App/"
+        }
+        
+    }
+}
